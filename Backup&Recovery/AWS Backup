@@ -1,0 +1,8 @@
+AWS Backup
+
+## centralizes and automates the backup of data across aws services
+## global backup capabilities and help achieve DR and comliance
+## AWS Backup Audit manager – for compliance and audit requirements https://docs.aws.amazon.com/aws-backup/latest/devguide/aws-backup-audit-manager.html
+## AWS Backup Vault Lock – supports compliance requirements by enforcing a write-once, read-many (WORM) configuration for all your backups stored in a backup vault in aws backup
+https://docs.aws.amazon.com/aws-backup/latest/devguide/vault-lock.html
+##Can backup AWS Organizations, manage backup policies at organization/ ou level and automatically have these policies implemented  for each related aws account and region
