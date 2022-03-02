@@ -1,0 +1,10 @@
+AWS:  Designing a backup and recovery solution 
+-	Should meet appropriate level of granularity to meet recovery time objective (RTO) and recovery point objective (RPO) for the required workload, including the following
+
+
+o	File level recovery (ex. Config files for an app)
+o	App data-level recovery (ex, a specific database withing MySQL)
+o	App-level recover (ex, a specific web server app version)
+o	EC2 volume level recovery (ex, EBS volume)
+o	EC2 instance level recovery (ex, ec2 instance)
+o	Managed Service recovery ( ex, DynamoDB table)
