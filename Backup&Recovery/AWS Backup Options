@@ -1,0 +1,19 @@
+Content:  Backup Plan, Tag Policies, Secure Backup Vault, DR
+
+AWS Backup
+
+## centralizes and automates the backup of data across aws services
+## global backup capabilities and help achieve DR and comliance
+## AWS Backup Audit manager – for compliance and audit requirements https://docs.aws.amazon.com/aws-backup/latest/devguide/aws-backup-audit-manager.html
+## AWS Backup Vault Lock – supports compliance requirements by enforcing a write-once, read-many (WORM) configuration for all your backups stored in a backup vault in aws backup
+https://docs.aws.amazon.com/aws-backup/latest/devguide/vault-lock.html
+##Can backup AWS Organizations, manage backup policies at organization/ ou level and automatically have these policies implemented  for each related aws account and region
+
+##Secure Backup Vault:  ex, implement an OU SCP that prevents your backup valut from being deleted or from being shared with unintended aws accounts
+https://aws.amazon.com/blogs/security/top-10-security-best-practices-for-securing-backups-in-aws/
+
+
+##DR: supports mult aws resources.  Supports cross-region and cross account backups.  
+Cross-account backup improves backup security because a copy is available in a separate account
+Cross-Region backup improves availability because the backups are available in more than one Region
+##Solution includes custom features, such as automatically reapplying AWS tags on restored AWS resources as well as establishing a secondary backup vault in a separate account and Region for DR purposes.
